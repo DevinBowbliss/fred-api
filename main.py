@@ -1,6 +1,8 @@
 import requests
 import pyodbc
 
+#connection string for local SQL Server instance with Windows Authentication
+
 CONNECTION_STRING = (
     "Driver={ODBC Driver 17 for SQL Server};"
     "Server=DESKTOP-567UVQM;"
